@@ -87,12 +87,13 @@ The API will be running at ```http://localhost:3333```.
 | PATCH  | `/tickets/:id/status` | Update ticket status |
 | DELETE | `/tickets/:id`        | Delete a ticket      |
 
+<br>
+
+All data is stored persistently in src/database/db.json.
+
 <br><br>
 
 ## Contributing 🤝
 
 Feel free to contribute to this project by submitting issues or pull requests. Your feedback and suggestions are always welcome!
-
-
-All data is stored persistently in src/database/db.json.
 
