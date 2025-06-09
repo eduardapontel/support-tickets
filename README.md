@@ -2,7 +2,7 @@
 
 A lightweight Node.js REST API for managing customer support tickets. Built using only native modules and custom utilities, this project allows full CRUD operations for support tickets, stored locally in a JSON file.
 
-<br><br>
+<br>
 
 ## ✨ Features
 
@@ -13,7 +13,7 @@ A lightweight Node.js REST API for managing customer support tickets. Built usin
 - Middleware for JSON body parsing and route handling
 - No external frameworks – built with Node.js core modules
 
-<br><br>
+<br>
 
 ## 📁 Project Structure
 
@@ -47,7 +47,7 @@ A lightweight Node.js REST API for managing customer support tickets. Built usin
        - `extractQueryParams.js`: Parses query parameters from URLs.
        - `parseRoutePath.js`: Matches and parses dynamic route paths (e.g., `/tickets/:id`).
 
-<br><br>
+<br>
 
 ## 🚀 Getting Started
 
@@ -57,25 +57,19 @@ A lightweight Node.js REST API for managing customer support tickets. Built usin
 git clone https://github.com/eduardapontel/support-tickets.git
 ```
 
-<br>
-
 2. Install dependencies
 ```bash
 npm install
 ```
-
-<br>
 
 3. Run the server
 ```bash
 node src/server.js
 ```
 
-<br>
-
 The API will be running at ```http://localhost:3333```.
 
-<br><br>
+<br>
 
 ## 🔗 API Endpoints
 | Method | Endpoint              | Description          |
@@ -86,11 +80,10 @@ The API will be running at ```http://localhost:3333```.
 | PATCH  | `/tickets/:id/status` | Update ticket status |
 | DELETE | `/tickets/:id`        | Delete a ticket      |
 
-<br>
 
 All data is stored persistently in src/database/db.json.
 
-<br><br>
+<br>
 
 ## Contributing 🤝
 
