@@ -55,7 +55,6 @@ A lightweight Node.js REST API for managing customer support tickets. Built usin
 
 ```bash
 git clone https://github.com/eduardapontel/support-tickets.git
-cd support-tickets
 ```
 
 <br>
