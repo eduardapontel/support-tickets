@@ -85,7 +85,7 @@ All data is stored persistently in src/database/db.json.
 
 <br>
 
-## Contributing 🤝
+## 🤝 Contributing 
 
 Feel free to contribute to this project by submitting issues or pull requests. Your feedback and suggestions are always welcome!
 
